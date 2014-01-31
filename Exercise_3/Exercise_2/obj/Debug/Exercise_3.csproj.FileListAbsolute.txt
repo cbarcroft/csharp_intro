@@ -1,0 +1,6 @@
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\Exercise_2\bin\Debug\Exercise_2.exe.config
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\Exercise_2\bin\Debug\Exercise_2.exe
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\Exercise_2\bin\Debug\Exercise_2.pdb
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\Exercise_2\obj\Debug\Exercise_3.csprojResolveAssemblyReference.cache
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\Exercise_2\obj\Debug\Exercise_2.exe
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\Exercise_2\obj\Debug\Exercise_2.pdb

@@ -1,0 +1,12 @@
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_2\Exercise_2\bin\Debug\Exercise_2.exe.config
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_2\Exercise_2\bin\Debug\Exercise_2.exe
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_2\Exercise_2\bin\Debug\Exercise_2.pdb
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_2\Exercise_2\obj\Debug\Exercise_2.csprojResolveAssemblyReference.cache
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_2\Exercise_2\obj\Debug\Exercise_2.exe
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_2\Exercise_2\obj\Debug\Exercise_2.pdb
+C:\Users\ChrisHome\Documents\Visual Studio 2012\Projects\Exercise_2\Exercise_2\bin\Debug\Exercise_2.exe.config
+C:\Users\ChrisHome\Documents\Visual Studio 2012\Projects\Exercise_2\Exercise_2\obj\Debug\Exercise_2.exe
+C:\Users\ChrisHome\Documents\Visual Studio 2012\Projects\Exercise_2\Exercise_2\obj\Debug\Exercise_2.pdb
+C:\Users\ChrisHome\Documents\Visual Studio 2012\Projects\Exercise_2\Exercise_2\bin\Debug\Exercise_2.exe
+C:\Users\ChrisHome\Documents\Visual Studio 2012\Projects\Exercise_2\Exercise_2\bin\Debug\Exercise_2.pdb
+C:\Users\ChrisHome\Documents\Visual Studio 2012\Projects\Exercise_2\Exercise_2\obj\Debug\Exercise_2.csprojResolveAssemblyReference.cache

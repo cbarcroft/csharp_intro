@@ -1,0 +1,6 @@
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_1\Exercise_1_VendingMachine\bin\Debug\Exercise_1_VendingMachine.exe.config
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_1\Exercise_1_VendingMachine\bin\Debug\Exercise_1_VendingMachine.exe
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_1\Exercise_1_VendingMachine\bin\Debug\Exercise_1_VendingMachine.pdb
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_1\Exercise_1_VendingMachine\obj\Debug\Exercise_1_VendingMachine.csprojResolveAssemblyReference.cache
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_1\Exercise_1_VendingMachine\obj\Debug\Exercise_1_VendingMachine.exe
+c:\users\chris.barcroft\documents\visual studio 2012\Projects\Exercise_1\Exercise_1_VendingMachine\obj\Debug\Exercise_1_VendingMachine.pdb
