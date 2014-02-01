@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace Exercise_3
 {
@@ -49,6 +50,19 @@ namespace Exercise_3
             Console.WriteLine("{0} added.", FlavorOfCanToBeAdded);
         }
 
+        public void AddACanOf(String FlavorOfCanToBeAdded)
+        {
+            if (Enum.IsDefined(typeof(Flavor), FlavorOfCanToBeAdded))
+            {
+                Flavor flavor = (Flavor)System.Enum.Parse(typeof(Flavor), FlavorOfCanToBeAdded, true);
+                RemoveACanOf(flavor);
+            }
+            else
+            {
+                Debug.WriteLine("Flavor '{0}' not found in FLAVOR enum.  Cannot convert to Flavor object.", FlavorOfCanToBeAdded, null);
+            }
+        }
+
         // This method will remove a can of the specified flavor from the rack. 
         public void RemoveACanOf(Flavor FlavorOfCanToBeRemoved)
         {
@@ -71,6 +85,11 @@ namespace Exercise_3
             }
 
             Console.WriteLine("{0} dispensed.", FlavorOfCanToBeRemoved);
+        }
+
+        public void RemoveACanOf(String FlavorOfCanToBeRemoved)
+        {
+            CallFlavorMethodWithStringArgument(FlavorOfCanToBeRemoved, "RemoveACanOf");
         }
 
         // This method will fill the can rack. 
@@ -99,6 +118,11 @@ namespace Exercise_3
             }
         }
 
+        public void EmptyCanRackOf(String FlavorOfBinToBeEmptied)
+        {
+            CallFlavorMethodWithStringArgument(FlavorOfBinToBeEmptied, "EmptyCanRackOf");
+        }
+
         // Return TRUE if the specified bin is full.
         public Boolean IsFull(Flavor FlavorOfBinToCheck)
         {
@@ -120,10 +144,15 @@ namespace Exercise_3
             return binFull;
         }
 
+        public void IsFull(String FlavorOfBinToCheck)
+        {
+            CallFlavorMethodWithStringArgument(FlavorOfBinToCheck, "IsFull");
+        }
+
         // Return TRUE if the specified bin is empty.
         public Boolean IsEmpty(Flavor FlavorOfBinToCheck)
         {
-            Debug.WriteLine("Checking if the " + FlavorOfBinToCheck + " bin is empty.");
+            Debug.WriteLine("Checking if the {0} bin is empty.", FlavorOfBinToCheck, null);
             bool binEmpty = false;
             int binCount;
 
@@ -139,6 +168,31 @@ namespace Exercise_3
 
             Debug.WriteLine("{0} bin empty: {1}", FlavorOfBinToCheck, binEmpty);
             return binEmpty;
+        }
+
+        public void IsEmpty(String FlavorOfBinToCheck)
+        {
+            CallFlavorMethodWithStringArgument(FlavorOfBinToCheck, "IsEmpty");
+        }
+
+        // Private helper method to maintain support for methods that previously took a String argument for the flavor, but now take a Flavor type.
+        // Provide the flavor string, and the name of the method to call
+        private void CallFlavorMethodWithStringArgument(string FlavorString, string MethodName)
+        {
+            Debug.WriteLine("Attempting to convert String argument '{0}' to Flavor, and invoke {1}(Flavor) ", FlavorString, MethodName);
+            Flavor flavor;
+
+            //Attempt to parse FlavorString into Flavor
+            if (Enum.TryParse(FlavorString, true, out flavor))
+            {
+                //Call the specified method via reflection, passing in the converted Flavor object
+                object[] arguments = new object[] { flavor };
+                this.GetType().GetMethod(MethodName, new Type[] { typeof(Flavor) }).Invoke(this, arguments);
+            }
+            else
+            {
+                Debug.WriteLine("Flavor '{0}' not found in FLAVOR enum.  Cannot convert to Flavor object.", FlavorString, null);
+            }
         }
     } //end Can_Rack
 }
