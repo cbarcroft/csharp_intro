@@ -1,0 +1,6 @@
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\CoinDevelopment\bin\Debug\CoinDevelopment.exe.config
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\CoinDevelopment\bin\Debug\CoinDevelopment.exe
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\CoinDevelopment\bin\Debug\CoinDevelopment.pdb
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\CoinDevelopment\obj\Debug\CoinDevelopment.exe
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\CoinDevelopment\obj\Debug\CoinDevelopment.pdb
+C:\Users\chris.barcroft\Documents\Visual Studio 2012\Projects\Exercise_3\CoinDevelopment\obj\Debug\CoinDevelopment.csprojResolveAssemblyReference.cache
