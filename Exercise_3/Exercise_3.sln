@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_3", "Exercise_2\Exercise_3.csproj", "{F1FCD581-AD86-47D4-BE0A-014C9A999A03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_3", "Exercise_3\Exercise_3.csproj", "{F1FCD581-AD86-47D4-BE0A-014C9A999A03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinDevelopment", "CoinDevelopment\CoinDevelopment.csproj", "{177577CF-B3FE-4518-AE92-0C175279CFC5}"
 EndProject
