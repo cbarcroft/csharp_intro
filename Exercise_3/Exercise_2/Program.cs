@@ -36,7 +36,6 @@ namespace Exercise_3
 
                 //Dispense the can (if possible)
                 rack.RemoveACanOf(flavor);
-
             }
             else
             {

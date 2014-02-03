@@ -40,14 +40,12 @@ namespace Exercise_3
             if (_flavorBin.ContainsKey(FlavorOfCanToBeAdded))
             {
                 _flavorBin[FlavorOfCanToBeAdded]++;
+                Console.WriteLine("{0} added.", FlavorOfCanToBeAdded);
             }
             else
             {
                 Debug.WriteLine("Invalid flavor parameter supplied to RemoveACanOf().");
-                return;
             }
-
-            Console.WriteLine("{0} added.", FlavorOfCanToBeAdded);
         }
 
         public void AddACanOf(String FlavorOfCanToBeAdded)
@@ -66,7 +64,7 @@ namespace Exercise_3
         // This method will remove a can of the specified flavor from the rack. 
         public void RemoveACanOf(Flavor FlavorOfCanToBeRemoved)
         {
-            Debug.WriteLine("Removing can of " + FlavorOfCanToBeRemoved);
+            Debug.WriteLine("Removing can of {0}", FlavorOfCanToBeRemoved, null);
 
             if (IsEmpty(FlavorOfCanToBeRemoved))
             {
@@ -77,14 +75,12 @@ namespace Exercise_3
             if (_flavorBin.ContainsKey(FlavorOfCanToBeRemoved))
             {
                 _flavorBin[FlavorOfCanToBeRemoved]--;
+                Console.WriteLine("{0} dispensed.", FlavorOfCanToBeRemoved);
             }
             else
             {
                 Debug.WriteLine("Invalid flavor parameter supplied to RemoveACanOf().");
-                return;
             }
-
-            Console.WriteLine("{0} dispensed.", FlavorOfCanToBeRemoved);
         }
 
         public void RemoveACanOf(String FlavorOfCanToBeRemoved)
