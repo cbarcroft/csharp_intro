@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Exercise 03
+//Chris Barcroft
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
